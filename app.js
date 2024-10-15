@@ -64,6 +64,7 @@ function resetGame(){
     box.forEach(element => {
         element.innerText="";
         turn= true;
+        count=0;
     });
 }
 
