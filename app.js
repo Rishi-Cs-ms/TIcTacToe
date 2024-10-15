@@ -27,7 +27,6 @@ box.forEach(element => {
         else{    
             if(element.innerText!="X"){
                 element.innerText="O";
-                element.style.color="red"; 
                 turn= true;
                 count++;
             }        
